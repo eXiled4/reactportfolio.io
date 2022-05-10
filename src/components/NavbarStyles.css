@@ -33,9 +33,14 @@
       background: black;
       position: absolute;
       top: 0;
-      left: 0;
+      left: -100%;
       z-index: -3;
+      transition: 0.5s;
     }
+  }
+
+  .nav-menu.active {
+      left: 0;
   }
   
   .nav-menu li {

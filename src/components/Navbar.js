@@ -13,7 +13,8 @@ const Navbar = () => {
         <Link to="/">
             <h1>Portfolio</h1>
         </Link>
-        <ul className='nav-menu'>
+        <ul className={click ? "nav-menu active" : "nav-menu"}>
+            {/* wont work if nav-menu.active */}
             <li>
                 <Link to="/">Home</Link>
             </li>
@@ -27,9 +28,12 @@ const Navbar = () => {
                 <Link to="/contact">Contact</Link>
             </li>
         </ul>
-        <div className='sidemenu'>
-            <FaTimes size={20} style={{color: "whitesmoke"}}/>
-            <FaBars size={20} style={{color: "whitesmoke"}}/>
+        <div className='sidemenu' onClick={handleClick}>
+            {click ? 
+            (<FaTimes size={20} style={{color: "whitesmoke"}}/>) : 
+            (<FaBars size={20} style={{color: "whitesmoke"}}/>) }
+            
+            
         </div>
     </div>
   )
