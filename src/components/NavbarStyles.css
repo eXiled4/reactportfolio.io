@@ -12,6 +12,12 @@
 /* z-index property specifies the stack order of an element. */
 /* element with greater stack order is always in front of an element with a lower stack order. */
 
+.header-bg{
+  background-color: rgba(0, 0, 0, 0.85);
+  transition: 0.7s;
+  
+}
+
 .nav-menu {
     display: flex;
 }
