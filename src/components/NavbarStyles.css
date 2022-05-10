@@ -7,6 +7,7 @@
     width: 100%;
     height: 90px;
     z-index: 10;
+    opacity: 0.8;
 }
 
 /* z-index property specifies the stack order of an element. */
