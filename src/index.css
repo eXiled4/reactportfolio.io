@@ -20,6 +20,30 @@ ul {
   list-style-type: none;
 }
 
+.btn {
+  padding: 12px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: cyan;
+  color: black;
+  border: 1px solid white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-lite {
+  background: transparent;
+  color: white;
+}
+
+.btn:hover {
+  background: rgba(255, 255, 255, 0.2 );
+  color: white;
+  transition: 0.3s;
+}
+
+
+
 /* @media screen and (max-width: 1080px) {
   .nav-menu {
     flex-direction: column;
@@ -34,6 +58,8 @@ ul {
     z-index: -3
   }
 }
+
+54:51
 
 .nav-menu li {
   padding: 1rem 0;
