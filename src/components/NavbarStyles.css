@@ -14,10 +14,15 @@
 }
 
 .nav-menu li a{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: 500;
 }
 
+.sidemenu {
+    display: initial;
+}
+
+/* @media allows responsiveness */
 @media screen and (max-width: 1080px) {
     .nav-menu {
       flex-direction: column;
@@ -29,12 +34,12 @@
       position: absolute;
       top: 0;
       left: 0;
-      z-index: -3
+      z-index: -3;
     }
   }
   
   .nav-menu li {
-    padding: 1rem 0;
+    padding: 1rem 1;
   }
   
   .nav-menu li a {
