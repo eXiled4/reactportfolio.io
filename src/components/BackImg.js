@@ -11,8 +11,8 @@ const BackImg = () => {
             <img className="back-img" src={BackPic} alt="background"/>
         </div>
         <div className="content">
-            <p>HI THERE! I'M A NEWBIE SOFTWARE ENGINEER!</p>
-            <h1>React/Ruby on Rails developer</h1>
+            <p>HI THERE! I'M A NEWBIE WEB CREATOR!</p>
+            <h1>React/Ruby Developer</h1>
             <div>
                 <Link to="/project" className="btn">Projects</Link>
                 <Link to="/contact" className="btn btn-lite">Contact</Link>
