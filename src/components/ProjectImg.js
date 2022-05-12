@@ -1,4 +1,5 @@
 import React from 'react'
+import "./ProjectImgStyles.css"
 import ProjectPic from "../assets/mechatron.jpg"
 
 
@@ -8,7 +9,6 @@ const ProjectImg = () => {
         <div className="project1">
             <img className="project-img" src={ProjectPic} alt="projects"/>
         </div>
-
     </div>
   )
 }

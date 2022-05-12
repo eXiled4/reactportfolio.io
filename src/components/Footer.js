@@ -11,12 +11,12 @@ const Footer = () => {
                     <FaHome size={25} style={{color: "white", marginRight: "2rem"}}/>
                     <div>
                       <p>Homview, 4207, Queensland</p>
-                      <p>Australia</p>
+                      <p>Australia.</p>
                     </div>
                 </div>
                 <div className="phone">
                   <h4><FaPhone size={25} style={{color: "white", marginRight: "2rem"}}/>
-                  0468 550 898</h4>                  
+                  +61 468 550 898</h4>                  
                 </div>
 
                 <div className="email">
