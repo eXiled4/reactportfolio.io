@@ -1,14 +1,13 @@
 import React from 'react'
 import "./ProjectImgStyles.css"
-import ProjectPic from "../assets/mechatron.jpg"
-
 
 const ProjectImg = () => {
   return (
     <div className='project'>
-        <div className="project1">
-            <img className="project-img" src={ProjectPic} alt="projects"/>
-        </div>
+          <div className='heading'>
+            <h1>This is a heading</h1>
+            <p>This is a paragraph</p>
+          </div>
     </div>
   )
 }

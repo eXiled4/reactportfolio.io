@@ -1,29 +1,15 @@
-.project1 {
+.project {
+    height: 60vh;
     width: 100%;
-    height: 100vh;
     position: relative;
 }
 
-.project-img {
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-    object-fit: cover;
-}
-
-.project1::after {
-    content: "";
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: black;
-    opacity: 0.7;
-}
-
-.project {
+.heading {
     height: 100%;
     width: 100%;
+    font-size: 150%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
