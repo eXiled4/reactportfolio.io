@@ -25,15 +25,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 120%;
 }
 
 
 @media screen and (max-width: 960px) {
     .heading h1 {
-        font-size: 300%;
+        font-size: auto;
     }
     .heading p {
-        font-size: 150%;
+        font-size: auto;
         text-align: center;
     }
 }

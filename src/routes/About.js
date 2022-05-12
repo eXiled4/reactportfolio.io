@@ -12,7 +12,7 @@ const About = () => {
       text="I am a newly graduate looking for a role as a
             junior developer in a fast-paced, user focused
             organisation with experience from health care."
-      text1="Here I'd be able learn from experienced
+      text1="Here I'd be able to learn from experienced
             developers and in turn make periodic,
             meaningful additions through my work"
       text2="I believe in continually contributing towards
