@@ -23,7 +23,7 @@
     background-color: rgb(49, 45, 45);
 }
 
-.card h1 {
+.card h2 {
     padding: 1rem;
     font-size: 120%;
 }
@@ -45,12 +45,12 @@
 }
 
 .btn {
-    display: block;
-    width: 80%;
+    display: inline-block;
+    width: 70%;
     margin: 1rem auto;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 720px) {
     .card-container {
         max-width: 90%;
         margin: auto;
