@@ -1,13 +1,13 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-import ProjectImg from '../components/ProjectImg'
+import ChildImg from '../components/ChildImg'
 
 const Project = () => {
   return (
     <div>
       <Navbar />
-      <ProjectImg />
+      <ChildImg heading="Projects." text="That I have been working on..."/>
       <Footer />
     </div>
   )

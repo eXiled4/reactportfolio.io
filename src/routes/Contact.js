@@ -1,13 +1,13 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-import ContactImg from '../components/ContactImg'
+import ChildImg from '../components/ChildImg'
 
 const Contact = () => {
   return (
     <div>
       <Navbar />
-      <ContactImg />
+      <ChildImg heading="CONTACT." text="Let's get in touch..."/>
       <Footer />
     </div>
   )
