@@ -21,7 +21,28 @@
     width: 100%
 }
 
-@media screen and (max-width: 720px) {
+.project-title {
+    color: white;
+    padding: 1rem 0;
+}
+
+.project-details p{
+    padding-bottom: 1.1rem;
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+.project-btns {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+}
+
+.project-btns btn {
+    padding: 0.5rem 1rem;
+}
+
+@media screen and (max-width: 750px) {
     .project-container {
         max-width: 90%;
         margin: auto;
