@@ -44,7 +44,7 @@
     font-weight: 300;
 }
 
-.btn {
+.card .btn {
     display: inline-block;
     width: 70%;
     margin: 1rem auto;
