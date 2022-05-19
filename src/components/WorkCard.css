@@ -13,8 +13,12 @@
 }
 
 .project-card {
-    background-color: black;
+    background-color: rgb(31, 29, 29);
     padding: 1.2rem 1rem;
+}
+
+.project-card:hover {
+    background-color: rgb(49, 45, 45);
 }
 
 .project-card img {
