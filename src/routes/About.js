@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import ChildImg from '../components/ChildImg'
+import AboutContent from '../components/AboutContent'
 
 const About = () => {
   return (
@@ -19,6 +20,7 @@ const About = () => {
             society, bettering myself & making a
             positive difference."
       />
+      <AboutContent />
       <Footer />
     </div>
   )

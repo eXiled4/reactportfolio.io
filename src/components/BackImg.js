@@ -11,7 +11,7 @@ const BackImg = () => {
             <img className="back-img" src={BackPic} alt="background"/>
         </div>
         <div className="content">
-            <p>HI THERE! I'M JULIAN! A NEWBIE WEB CREATOR!</p>
+            <p>HI THERE! I'M JULIAN! AN ASPIRING WEB DEVELOPER!</p>
             <h1>React/Ruby Developer</h1>
             <br/>
             <div>
