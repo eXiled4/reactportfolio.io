@@ -28,12 +28,12 @@
 }
 
 .nav-menu li a{
-    font-size: 1.2rem;
+    font-size: 2rem;
     font-weight: 500;
 }
 
 .sidemenu {
-    display: initial;
+    display: none;
 }
 
 /* @media allows responsiveness */
@@ -52,16 +52,22 @@
       z-index: -3;
       transition: 0.5s;
     }
-  }
+  
 
   .nav-menu.active {
       left: 0;
   }
   
   .nav-menu li {
-    padding: 1rem 1;
+    padding: 1rem 0;
   }
   
   .nav-menu li a {
     font-size: 2rem;
   }
+
+  .sidemenu {
+    display: initial;
+}
+
+}
